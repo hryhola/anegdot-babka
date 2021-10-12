@@ -8,6 +8,8 @@ namespace Global
    public static class Program {
         public static BaseShop Shop = new BaseShop();
         public static void Main() {
+            Console.OutputEncoding = Encoding.UTF8;
+
             var babka = new Babka(Location.Ukraine);
         
             babka.Location = Location.USA;
